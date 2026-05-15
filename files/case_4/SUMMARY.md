@@ -9,8 +9,6 @@
 | File                        | Purpose                                                | How to Use                        |
 | --------------------------- | ------------------------------------------------------ | --------------------------------- |
 | **README.md**               | Start here! Quick start guide with everything you need | Read first (5 min)                |
-| **EXEC_SUMMARY.md**         | Key findings written simply for the decision-maker     | Show to CMO (5 min read)          |
-| **PRESENTATION.md**         | 5-slide presentation outline + speaker notes           | Present findings (10 min)         |
 | **app.py**                  | Interactive Streamlit dashboard with 4 tabs            | Run: `streamlit run app.py`       |
 | **case4_analysis.ipynb**    | Full Jupyter notebook with all analysis + models       | Open in Jupyter                   |
 | **case4_telecom_churn.csv** | 7,000 customer records raw data                        | Used by both notebook & dashboard |
@@ -143,25 +141,6 @@ http://localhost:8501
 5. **Customer clustering** - K-means to find segments
 6. **Retention strategy** - Design plays for each segment
 7. **Impact calculation** - Estimate revenue protected
-
----
-
-## ❓ FAQ
-
-**Q: How confident are the predictions?**  
-A: Model (AUC 0.89) is very accurate on WHO will churn. Save-rates (15-35%) are industry-standard but not measured - needs pilot testing.
-
-**Q: Why fiber customers?**  
-A: They churn most (45%) AND have most support calls. Indicates service quality issue, not price problem.
-
-**Q: What about new customers?**  
-A: Month-to-month contracts let them leave easily. Locking them in with annual contract + discount is proven retention strategy.
-
-**Q: How do I measure success?**  
-A: Compare actual save-rate vs target (15-35%) after 30-day pilot. Calculate ROI = (revenue protected / program cost).
-
-**Q: What could go wrong?**  
-A: If save-rates are lower than predicted OR segments don't respond to offers. That's why we pilot first, measure, then scale.
 
 ---
 
