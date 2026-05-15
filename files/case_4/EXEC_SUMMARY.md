@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**For:** CMO (decides retention spending)  
+**For:** CMO  
 **Question:** Who is leaving our telecom service? Can we keep them? Where should we spend retention money?
 
 ---
@@ -112,8 +112,6 @@ I ran clustering analysis (K-means) to find customer segments. Here's what I fou
 **Churn rate:** 40% (higher than industry benchmark of 1.5% monthly)  
 **Key finding:** First 6 months = 50% churn; after 12 months = 5% churn
 
-- Save rates not benchmarked against your historical campaigns — they should be.
 
 ---
 
-_Full notebook (EDA → model → segmentation → plays), 5-slide deck, and decisions log are in the repo. Happy to walk through any of it — particularly the segment-labeling logic, where the first pass got it wrong and the second pass is what's reported here._
