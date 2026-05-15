@@ -23,7 +23,7 @@ Analyzes 50,000 food delivery orders to find:
 
 ## How to Run
 
-### Option 1: Run the Dashboard (Recommended)
+### Option 1: Run the Dashboard
 
 ```bash
 # Install packages first
@@ -56,7 +56,7 @@ This shows all the analysis step-by-step with code and outputs.
 
 ---
 
-## Key Findings (2-Minute Summary)
+## Key Findings 
 
 ✅ **Demand peaks at lunch (12-2 PM) and dinner (7-10 PM)**
 ✅ **Weekend dinners are the hottest** - 30% more orders than weekday lunch
@@ -110,7 +110,3 @@ A: Test this policy in 1-2 cities for a week, measure delivery times and custome
 
 ---
 
-## Created By: Data Analysis Fresher
-
-**Date:** May 2026  
-**Time taken:** Analysis + dashboard build from scratch
