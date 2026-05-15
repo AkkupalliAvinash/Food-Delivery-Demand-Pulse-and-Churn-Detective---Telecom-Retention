@@ -1,0 +1,4 @@
+segment,size,offer,save_rate_assumed,customers_reached,customers_saved,revenue_protected_usd,program_cost_usd,net_value_usd
+Long-Tenure Defectors,662,"Loyalty plan: 20% discount for 12 months, locked-in 2-year contract",35%,463,162,215248,81999,133249
+Low-Bill Drifters,1129,"Re-engagement bundle: free streaming add-on, 3 months",15%,790,118,156899,23709,133190
+Low-Bill Drifters,806,"Re-engagement bundle: free streaming add-on, 3 months",15%,564,84,108568,16925,91642
