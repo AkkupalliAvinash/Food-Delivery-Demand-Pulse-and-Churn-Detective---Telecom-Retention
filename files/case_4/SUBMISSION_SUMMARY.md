@@ -175,7 +175,7 @@ A: If save-rates are lower than predicted OR segments don't respond to offers. T
 
 ---
 
-## 🎯 Success Metrics (For Pilot)
+## 🎯 Success Metrics 
 
 - **Fiber Support:** Target 70% save rate → 840 customers saved
 - **New Lock-in:** Target 50% save rate → 500 customers saved
@@ -184,6 +184,3 @@ A: If save-rates are lower than predicted OR segments don't respond to offers. T
 
 ---
 
-**Created by:** Data Analysis Fresher  
-**Date:** May 2026  
-**Status:** Ready for presentation and pilot testing
