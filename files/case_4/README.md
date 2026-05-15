@@ -16,7 +16,6 @@ Analyzes 7,000 telecom customers to find:
 | `app.py`                  | **Interactive dashboard** - Start here! Explore churn patterns visually           |
 | `case4_analysis.ipynb`    | **Full analysis notebook** - All code, clustering, models, charts                 |
 | `case4_telecom_churn.csv` | **Raw data** - 7,000 customers with tenure, contract, support calls, churn status |
-| `EXEC_SUMMARY.md`         | **Key findings** - Read this if you only have 5 minutes                           |
 | `requirement.txt`         | **Python dependencies** - List of packages needed                                 |
 
 ---
@@ -165,5 +164,3 @@ A: Run a 30-day pilot on 20% of target customers. Track actual save-rate. If it 
 ---
 
 
-**Date:** May 2026  
-**Time taken:** Full analysis + dashboard + clustering from scratch
