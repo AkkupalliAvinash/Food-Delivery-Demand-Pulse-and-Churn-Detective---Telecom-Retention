@@ -19,9 +19,9 @@ st.set_page_config(page_title="Demand Pulse", layout="wide", page_icon="🍱")
 @st.cache_data
 def load_data():
     """Load CSV and create time-based columns for analysis"""
-    data_path = Path("case3_food_delivery_orders.csv")
+    data_path = Path(__file__).resolve().parent / "case3_food_delivery_orders.csv"
     if not data_path.exists():
-        raise FileNotFoundError(f"{data_path.name} not found in the current directory")
+        raise FileNotFoundError(f"{data_path.name} not found next to app.py")
 
     df = pd.read_csv(data_path, parse_dates=["timestamp"])
     
