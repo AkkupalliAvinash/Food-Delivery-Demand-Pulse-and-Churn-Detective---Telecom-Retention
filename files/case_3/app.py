@@ -82,6 +82,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["🔥 Demand Heatmap",
 with tab1:
     st.subheader("Where does demand actually peak?")
     heat = f.groupby(["dow", "hour"]).size().unstack(fill_value=0)
+    heat = heat.reindex(range(7), fill_value=0)
     heat.index = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     fig = px.imshow(
         heat.values, x=list(range(24)), y=heat.index,
