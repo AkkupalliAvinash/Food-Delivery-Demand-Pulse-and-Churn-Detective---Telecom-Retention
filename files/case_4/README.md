@@ -1,6 +1,5 @@
 # Case 4: Churn Detective - Telecom Retention
 
-
 ### What This Project Does
 
 Analyzes 7,000 telecom customers to find:
@@ -155,6 +154,30 @@ A: Run a 30-day pilot on 20% of target customers. Track actual save-rate. If it 
 
 ---
 
+## Live deployment
+
+This app can be deployed separately as a Streamlit app.
+
+### Deploy on Streamlit Cloud
+
+1. Push this repository to GitHub.
+2. Create a new app on Streamlit Community Cloud.
+3. Set the repository to this repo and branch to `main`.
+4. Set the app file path to `case_4/app.py`.
+5. Use `case_4/requirement.txt` or the root `requirements.txt` for dependencies.
+
+### Deploy on a general host (Render, Heroku, etc.)
+
+- `Procfile` is included at the repo root.
+- Install dependencies from the root `requirements.txt` file.
+- Start command:
+
+```bash
+streamlit run case_4/app.py --server.port $PORT --server.address 0.0.0.0
+```
+
+---
+
 ## Model Performance
 
 - **Logistic Regression:** AUC = 0.89 (very good)
@@ -163,4 +186,5 @@ A: Run a 30-day pilot on 20% of target customers. Track actual save-rate. If it 
 
 ---
 
-
+**Date:** May 2026  
+**Time taken:** Full analysis + dashboard + clustering from scratch

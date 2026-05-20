@@ -22,9 +22,9 @@ st.set_page_config(page_title="Churn Detective", layout="wide", page_icon="📊"
 @st.cache_data
 def load_data():
     """Load telecom customer data"""
-    data_path = Path("case4_telecom_churn.csv")
+    data_path = Path(__file__).resolve().parent / "case4_telecom_churn.csv"
     if not data_path.exists():
-        raise FileNotFoundError(f"{data_path.name} not found in the current directory")
+        raise FileNotFoundError(f"{data_path.name} not found next to app.py")
     
     df = pd.read_csv(data_path)
     return df
