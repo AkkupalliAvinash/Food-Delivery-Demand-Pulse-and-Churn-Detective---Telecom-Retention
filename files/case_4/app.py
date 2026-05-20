@@ -265,11 +265,11 @@ with tab4:
         "Abs Importance": np.abs(lr.coef_[0])
     }).sort_values("Abs Importance", ascending=True)
     
-    fig = px.barh(coef_df, x="Coefficient", y="Feature",
-                  color="Coefficient",
-                  color_continuous_scale="RdBu_r",
-                  title="Feature Importance (Logistic Regression Coefficients)",
-                  labels={"Coefficient": "Coefficient Value"})
+    fig = px.bar(coef_df, x="Coefficient", y="Feature", orientation='h',
+                 color="Coefficient",
+                 color_continuous_scale="RdBu_r",
+                 title="Feature Importance (Logistic Regression Coefficients)",
+                 labels={"Coefficient": "Coefficient Value"})
     fig.update_layout(height=300)
     st.plotly_chart(fig, use_container_width=True)
     
